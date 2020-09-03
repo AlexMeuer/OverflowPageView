@@ -1,3 +1,3 @@
 library overflow_page_view;
 
-export 'src/overflow_page_view.dart' show OverflowPageView;
+export 'src/overflow_page_view.dart';

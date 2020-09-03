@@ -1,3 +1,7 @@
+## [0.1.0] - 03 Sep 2020
+
+Add page change callback
+
 ## [0.0.1] - 17 Aug 2020
 
 Initial Release 

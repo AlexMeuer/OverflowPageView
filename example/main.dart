@@ -76,6 +76,8 @@ class _MyHomePageState extends State<MyHomePage> {
           print('Building item $index');
           return items[index];
         },
+        onPageChanged: (first, last) =>
+            print('Showing page with widgets $first through $last'),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

@@ -31,7 +31,7 @@ class PageAwareSliverChildBuilderDelegate extends SliverChildBuilderDelegate {
   void didFinishLayout(int firstItemIndex, int lastItemIndex) {
     assert(firstItemIndex == 0);
     assert(lastItemIndex >= 0);
-    layoutCallback(pageIndex, lastItemIndex + 1);
+    layoutCallback(pageIndex, lastItemIndex);
   }
 
   @override
